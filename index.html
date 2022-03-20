@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Customize your Audi RS6</h1>
+      <section class="achtergrondbtn">
+        <button id="achtergrondButton">Garage Background</button>
+      </section>
+
+      <section class="upgrade">
+        <button id="upgradeButton">Upgrade the horsepower</button>
+        <audio
+          id="upgrade"
+          src="./mixkit-garage-pneumatic-screwer-817.wav"
+        ></audio>
+      </section>
+      <section class="hoeveelheid">
+        <button class="min-button">-</button>
+        <input type="text" id="hoeveelheden" value="1" />
+        <button class="plus-button">+</button>
+      </section>
+
+      <p class="horsepower">
+        <span>Horsepower: </span>
+        <span id="power">100</span>
+        <span>HP</span>
+      </p>
+
+      <section id="kleurenbuttons">
+        <button id="veranderKnop1" class="button1">Nardo Grey</button>
+        <button id="veranderKnop2" class="button2">Night Black</button>
+        <button id="veranderKnop3" class="button3">Red</button>
+        <button id="veranderKnop4" class="button4">Narrava blue</button>
+        <button id="veranderKnop5" class="button5">Glacier White</button>
+      </section>
+
+      <section id="buttonsvelgen">
+        <button id="velgKnop1" class="velgbuttons">Gloss Rims</button>
+        <button id="velgKnop2" class="velgbuttons">Matte Rims</button>
+        <button id="velgKnop3" class="velgbuttons">Black Rims</button>
+        <button id="velgKnop4" class="velgbuttons">Silver Rims</button>
+        <button id="stickerKnop" class="stickerknoppie">Add a sticker</button>
+      </section>
+
+      <section id="waggies">
+        <img src="./img/narravablue.png" alt="" id="kleurImg" />
+      </section>
+      <section id="velgen">
+        <img src="./img/standaardvelg.png" alt="" id="velgImg" />
+      </section>
+      <section id="sticker">
+        <img src="./img/sticker_leeg.png" alt="" id="stickerImg" />
+      </section>
+
+      <!--Geluidje maken in combinatie met javascript-->
+      <button id="vroomButton" class="afbutton">Finish your car</button>
+      <audio id="vroom" src="./vroom.mp3"></audio>
+      <button id="revIt" class="revving">Rev the car!</button>
+      <audio
+        id="rev"
+        src="./740HP Audi RS6 C7 - Brutal Milltek Exhaust & INSANE REVS!_1.mp4"
+      ></audio>
+    </main>
+    <!---mijn bronnen komen allemaal van audi.com/audirs6 hier heb ik de screenshots van genomen-->
+    <script src="./script/javascript.js"></script>
+  </body>
+</html>
